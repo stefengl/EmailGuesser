@@ -1,0 +1,43 @@
+.app {
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  text-align: center
+}
+
+.app-header {
+  text-align: left;
+  padding-bottom: 48px;
+}
+
+.app-header h1,
+.app-header h3 {
+  margin: 0
+}
+
+.app-email-guess-form {
+  display: flex;
+  flex-flow: column nowrap;
+  display: inline-flex;
+  flex-flow: column nowrap;
+  width: 270px;
+}
+
+.app-email-guess-form label {
+  align-self: flex-start;
+}
+
+.app-email-guess-form button[type="submit"] {
+  align-self: flex-end;
+}
+
+.app-email-guess-form input[type="text"] {
+  margin-bottom: .5rem;
+}
+
+.app-error-message {
+  color: red;
+  font-style: italic;
+  font-size: .95rem;
+}
